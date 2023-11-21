@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+/* Inicio */
+/* menu */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+  
+  /* Estilos para el encabezado */
+  .header{
+    background-color: rgb(16,0,79);
+    padding: 7px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-main{
+    width: 40px;
+    height: auto;
+  }
+
+  /* Menu Principal */
+  .nav-main, .menu-selection button{
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-selection, .item-menu a{
+    color: #fff;
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    padding: 0 12px 0 0;
+  }
+
+  .item-menu a:hover{
+      transform: scale(1.1);
+  }
+
+  .header button {
+    height: 40px;
+    font-size: 15px;  
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    border: solid transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-weight: 500;
+    margin-left: 15px;
+  }
+
+  button:hover{
+    transform: scale(1.1);
+  }
+
+  .portada, #portada-img{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 50%;
+  }
+
+  
+  /* Estilo informacion de ciudades */
+  /* <!-- Main  -->
+    <!-- Selecion de destinos comunes --> */
+  .content-main{
+    padding: 0 10px 0 10px;
+  }
+
+  .price-city > h2{
+    color: rgb(16,0,79);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .price-city > p{
+    color: rgb(16,0,79);
+    font-size: 15px;
+    margin-top: 0;
+  }
+
+  /* Articulo #1 */
+  .article-1 .contain-img{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: 8px;
+  }
+
+  /* imagenes de viaje comun */
+  .contain-img .item-country img{
+    width: 210px;
+    padding: 0; 
+    border-radius: 12px 12px 0 0 ;
+  }
+
+  .contain-img .item-country, .figcaption-country{
+     background-color: white;
+     color: rgb(16,0,79);
+     border-radius: 0 15px 15px 0;
+     font-size: 25px;
+     font-weight: 700;
+     box-shadow: 2px 2px 2px -2px rgba(0, 0, 0, 0.2);
+  }
+
+  .figcaption-country{
+      padding-left: 10px;
+      padding-top: 10px;
+      margin-bottom: 0;
+  }
+
+  .figcaption-country, p{
+    margin-bottom: -10px;
+    margin-top: 0;
+  }
+
+  .contain-img, p, span{
+    font-size: 12px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-top: 0;
+  }
+
+  .figcaption-country, h2> span{
+    font-size: 18px;
+  }
+
+
+  .item-country:hover{
+    transform: scale(1.05);
+  }
+
+  /* Articulo #2 */
+  .populares-top h2{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(16, 0, 79);
+    margin-top: 5px;
+  }
+
+  .article-2 > .contain-popular{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .contain-popular > .item-popular img {
+    width: 220px;
+    padding: 0; 
+    box-shadow: 1.5px 1.5px 1.5px black;
+    margin: 0;
+    border-radius: 5px;
+    
+  }
+
+  .item-popular:hover{
+    transform: scale(1.05);
+  }
+
+  /* Departamentos */
+  .content-accommodation{
+    padding: 0 1rem;
+    display: grid;
+  }
+
+  .view-hotels-content{
+    display: flex;
+    overflow: hidden;
+    gap: 0.325rem;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+
+  /* Article */
+  .hotels-reserve{
+    display: flex;
+    box-shadow: rgba(48, 48, 48, 0.1) 0rem 0.25rem 0.5rem 0rem;
+    border-radius: 0.5rem;
+    padding: 0;
+    margin: 0;
+    transition: box-shadow 0.3s ease 0s;
+  }
+
+  .hotels-reserve:hover{
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.15);
+  }
+
+  /*imagen publicitaria */
+  .content-img-hotel, .accommodation-img{
+    margin: 0;
+    border-radius: 0.5rem 0 0 0.5rem;
+  } 
+
+  /* Información hoteles */
+  .content-info-hotels{
+    padding: 0.5rem;
+    width: 220px;
+    padding-left: 10px;
+    overflow: hidden;
+    flex: 1 1 0%;
+  }
+
+  .info-city-hotels{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .city-info-hotels{
+    margin: 0;
+    padding: 0;
+  }
+
+  .info-title-hotels{
+    justify-content: flex-start;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    gap: 0.5rem;
+    display: flex;
+  }
+
+  .title-info-hotels{
+    margin: 0;
+    padding: 0;
+    color: rgb(16, 0, 79);
+    font-weight: 600;
+  }
+
+  .info-qualification-hotels{
+      margin: 1rem 0 1rem 0;
+
+  }
+
+  .qualification-info-hotels{
+    background-color: rgb(16, 0, 79);
+    border-radius: 0.5rem;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    display: inline-flex;
+    justify-content: center;
+    padding: 0.425rem;
+    align-items: center;
+  }
+
+  .qualification-hotels{
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+  }
+
+  .info-prices-hotels{
+    flex: 1 1 0%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    justify-content: space-evenly;
+    margin-top: 12px;
+  }
+
+  .info-hotels-content{
+    margin: 0;
+    margin-bottom: 12px;
+    color: rgb(16, 0, 79);
+  }
+
+  .info-usd-price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 0.25rem;
+  }
+
+  .usd{
+    margin: 0;
+    padding: 0;
+    color: #10004F;
+    font-weight: 200;
+    font-size: 1.438rem;
+  }
+
+  .price{
+    margin: 0;
+    padding: 0;
+    color: #10004F;
+    font-weight: 600;
+    font-size: 1.438rem;
+  }
+
+  h2{
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #10004F;
+  }
+
+    /* Contenedor de video */
+  .content-video{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 2rem 0;
+    padding: 0;
+  }
+  video{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  /* Colaboradores - Acerca de.*/
+  .content-collaboration{
+    width: auto;
+    background: no-repeat center/100% url("../img/mochilero.jpg");
+    
+  }
+
+  .title-collaboration h2{
+    display: flex;
+    justify-content: center;
+    background-color: #10004F;
+    color: white;
+    padding-bottom: 10px;
+  }
+
+  .position-card-content{
+    width: 100%;
+    display: flex;
+    padding: 3rem 0 3rem 0;
+    justify-content: space-evenly;
+    margin: 0;
+    flex-direction: row;
+  }
+
+  .id-card-collaboration {
+    width: 220px; 
+    height: 370px;
+    background-color: white;
+    opacity: 65%;
+    border-radius: 12px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .description-student, h4, span{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+  } 
+
+  .icon-redes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+
+  /* Estilos Derechos de autor */
+  .derechos-autor p{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+  }
+
+
+
+  
