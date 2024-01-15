@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open Index.html",
-            "file": "c:\\Users\\mianl\\Project VisualStudio\\Projecto Cibertec - trabajo en grupo\\Agencia-de-viajes\\views\\Index.html"
+            "file": "c:\\Users\\mianl\\Project VisualStudio\\Mi trabajo\\Agencia-de-viajes\\views\\Index.html"
         }
     ]
 }

@@ -177,7 +177,6 @@ body {
 
   /* Article */
   .hotels-reserve{
-    display: flex;
     box-shadow: rgba(48, 48, 48, 0.1) 0rem 0.25rem 0.5rem 0rem;
     border-radius: 0.5rem;
     padding: 0;
@@ -314,9 +313,8 @@ body {
 
   /* Colaboradores - Acerca de.*/
   .content-collaboration{
-    width: auto;
-    background: no-repeat center/100% url("../img/mochilero.jpg");
     
+    background: no-repeat center/100% url("../img/mochilero.jpg");
   }
 
   .title-collaboration h2{
@@ -339,8 +337,7 @@ body {
   .id-card-collaboration {
     width: 220px; 
     height: 370px;
-    background-color: white;
-    opacity: 65%;
+    background-color: rgb(255, 255, 255, 0.6);
     border-radius: 12px;
     padding: 0;
     text-align: center;
